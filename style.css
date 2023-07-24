@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    margin-top: 30px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    margin: 30px 45px;
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbutton {
+    margin-top: 25px;
+    height: 35px;
+    width: 80px;
+    color: rgb(207, 199, 188);
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+}
+
+.mainimg {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainimg img {
+    height: 400px;
+    width: 180px;
+    position: relative;
+    left: 30px;
+    top: -130px;
+}
+
+.mainright {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.mainright img {
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 70px;
+}
+
+.mainright h1 {
+    margin: 30px;
+}
+
+.mainright h3 {
+    margin-left: 30px;
+}
+
+.mainright p {
+    margin: 30px;
+    width: 300px;
+    line-height: 23px;
+}
+
+.addtobag {
+    background-color: rgba(51, 48, 48, 0.484);
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.brandlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 {
+    width: 80px;
+    margin: 0px 100px;
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+    color: rgba(53, 49, 49, 0.568);
+    font-size: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.specsmain {
+    display: flex;
+    justify-content: center;
+}
+
+.specsright {
+    margin-left: 50px;
+}
+
+.battery {
+    margin: 25px;
+    position: relative;
+    left: -40px;
+}
+
+.plug {
+    margin: 25px;
+    position: relative;
+    left: -40px;
+}
+
+.case {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgba(53, 49, 49, 0.568);
+    font-size: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.casemain {
+    display: flex;
+    justify-content: center;
+}
+
+.caseleft img {
+    margin: 50px;
+    width: 180;
+    height: 300px;
+}
+
+.caseright p {
+    width: 200px;
+    margin-top: 130px;
+}
+
+.moreinfo {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(39, 35, 35);
+    border-radius: 5px;
+}
+
+.buymusic {
+    display: flex;
+    width: 70%;
+    height: 250px;
+    background: #0b0b0b;
+    border-radius: 15px;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.style h1 {
+    color: rgba(53, 49, 49, 0.568);
+    font-size: 50px;
+    margin: 30px 0px;
+    line-height: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.byuheadphone {
+    display: flex;
+    justify-content: center;
+}
